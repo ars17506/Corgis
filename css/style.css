@@ -1,0 +1,339 @@
+html,body, nav, section, div, img, ul {
+	margin: auto 0;
+	padding: 0;
+	font-family: "Ariel", sans-serif;
+}
+
+.content {
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* NAVIGATION */
+
+.menu-icon {
+	padding-top: 0em;
+	margin-left: 0em;
+	cursor: pointer;
+	position: relative;
+	display: block;
+	border: none;
+	text-align: center;
+}
+
+.nav-list {
+	float: left;
+	margin-top: 0;
+}
+
+.nav-list li {
+	display: block;
+	float: none;
+	margin-bottom: 20px;
+	padding-bottom: 0;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+#title {
+	margin-top: 0;
+	float: left;
+	list-style-type: none;
+	padding-top: 15em;
+	font-size: 20;
+	color: white;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#nav-links-list>li{
+	list-style-type: none;
+	float: left;
+	padding-right: 2em;
+	padding-left: 2em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	font-size: 20;
+	color: white;
+	max-width: 100%;
+}
+
+/* MAIN IMAGE */
+
+.main-header {
+	padding-top: 0.5em;
+	text-align: center;
+	background-image: url(../imgs/main-corgi.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	height: 30em;
+	overflow: hidden;
+}
+
+
+/* SECTION 1 */
+
+#corgi-history {
+	background-color:;
+	max-width: 100%;
+}
+
+#history-title {
+	font-family: "Ariel", sans-serif;
+	font-size: 35;
+	font-weight: 700;
+	text-align: center;
+}
+
+.history-one {
+	text-align: center;
+	font-size: 18;
+	font-family: "Ariel", sans-serif;
+	font-weight: 300;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+}
+
+/* SECTION 2 */
+
+#how-to-care {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	background-color: #98AFC7;
+	max-width: 100%;
+}
+
+#center-text {
+	max-width: 100%;
+	text-align: center;
+	list-style-type: none;
+	padding-right: 2em;
+	padding-left: 2em;
+}
+
+#center-text-big {
+	font-family: "Ariel", sans-serif;
+	font-weight: 700;
+	font-size: 35;
+	padding-bottom: 0.5em;
+}
+
+#center-text-medium {
+	font-family: "Ariel", sans-serif;
+	font-weight: 500;
+	font-size: 28;
+	padding-bottom: 0.5em;
+}
+
+#center-text-small {
+	font-family: "Ariel", sans-serif;
+	font-weight: 300;
+	font-size: 18;
+	padding-bottom: 2em;
+}
+
+#center-text>button{
+	width: 4em;
+	height: 2em;
+	background-color: #C7B097;
+	border: none;
+	font-size: 14;
+	margin-bottom: 2em;
+	cursor: pointer;
+}
+
+/* SECTION 3 */
+
+#facts-title {
+	font-family: "Ariel", sans-serif;
+	font-size: 35;
+	font-weight: 700;
+	text-align: center;
+}
+
+.image-grid {
+	list-style-type: none;
+	padding-bottom: 2em;
+	padding-top: 0.5em;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: block;
+	text-align: center;
+}
+
+#thumb-image1 {
+	width: 15em;
+	height: 11em;
+	max-width: 100%;
+	padding-top: 1em;
+}
+
+#thumb-image2 {
+	width: 15em;
+	height: 11em;
+	max-width: 100%;
+	padding-top: 1em;
+}
+
+#thumb-image3 {
+	width: 15em;
+	height: 11em;
+	max-width: 100%;
+	padding-top: 1em;
+}
+
+#caption-title {
+	font-size: 14;
+	font-weight: 300;
+}
+
+#caption {
+	font-size: 18;
+	font-weight: 300;
+}
+
+/* SECTION 4 */
+
+#numero-quatro{
+	text-align: center;
+	float: left;
+	background-color: #C7B097;
+}
+
+ .question{
+	text-align: center;
+	max-width: 100%;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.question>li{
+	list-style-type: none;
+	text-align: center;
+}
+
+#main_question {
+	font-family: "Ariel", sans-serif;
+	font-weight: 400;
+	font-size: 35;
+	text-align: center;
+}
+
+#question_text {
+	font-family: "Ariel", sans-serif;
+	font-weight: 300;
+	font-size: 24;
+	text-align: center;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.question>button{
+	width: 4em;
+	height: 2em;
+	background-color: #98AFC7;
+	border: none;
+	font-size: 14;
+	text-align: center;
+	cursor: pointer;
+}
+
+/*FOOTER*/
+
+.footer{
+	max-width: 100%;
+	background-color: white;
+	float: left;
+}
+
+#copyright{
+	text-align: center;
+	list-style-type: none;
+	font-size: 14;
+	font-weight: 500;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#name{
+	text-align: center;
+	list-style-type: none;
+	font-size: 14;
+	font-weight: 500;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+/*CLEARFIX*/
+.clearfix {
+	overflow: auto;
+}
+
+#history-title-page {
+	font-family: "Ariel", sans-serif;
+	font-size: 35;
+	font-weight: 700;
+	text-align: center;
+}
+
+.history-one-page {
+	text-align: center;
+	font-size: 18;
+	font-family: "Ariel", sans-serif;
+	font-weight: 300;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	padding-top: 2em;
+	background-color: #98AFC7
+}
+
+#care-page {
+	font-family: "Ariel", sans-serif;
+	font-size: 35;
+	font-weight: 700;
+	text-align: center;
+}
+
+.care-one {
+	text-align: center;
+	font-size: 18;
+	font-family: "Ariel", sans-serif;
+	font-weight: 300;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	padding-top: 2em;
+	background-color: #98AFC7
+}
+
+#fun-facts-title {
+	font-family: "Ariel", sans-serif;
+	font-size: 35;
+	font-weight: 700;
+	text-align: center;	
+}
+
+.fun-facts-info {
+	text-align: center;
+	font-size: 18;
+	font-family: "Ariel", sans-serif;
+	font-weight: 300;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	padding-top: 2em;
+	background-color: #98AFC7
+}
+
+.learn-more {
+	text-align: center;
+	font-size: 18;
+	font-family: "Ariel", sans-serif;
+	font-weight: 300;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+}
